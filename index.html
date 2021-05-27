@@ -15,9 +15,9 @@
     <header>
         <div class="contenedor">
             <nav class="menu">
-                <a href="#">Acerca de</a>
-                <a href="#">Trabajos</a>
-                <a href="#">Contacto</a>
+                <a href="#main">Acerca de</a>
+                <a href="#works">Trabajos</a>
+                <a href="#contact">Contacto</a>
             </nav>
             <div class="contenedor-texto">
                 <div class="texto">
@@ -28,7 +28,7 @@
         </div>
     </header>
 
-    <section class="main">
+    <section class="main" id="main">
         <section class="about">
             <div class="contenedor">
             <div class="photo">
@@ -36,30 +36,38 @@
             </div>
             <div class="text">
                 <h3 class="title">Acerca de mí</h3>
-                <p><span class="bold">Desarrolladora Frontend</span> egresada de Laboratoria</p>
+                <p><span class="bold">Desarrolladora Frontend</span> egresada del bootcamp de <a class="lab" href="https://www.laboratoria.la/">Laboratoria</a>. Me encanta resolver problemas, concentrándome en el autoaprendizaje. De actitud positiva y perseverante, me adapto fácilmente a los equipos de trabajo. Tras 5 años de experiencia como Ingeniero Agrónomo decidí reinventarme y crear soluciones útiles en el área tecnológica.</p>
             </div>
         </div>
         </section>
-        <section class="works">
+        <section class="works" id="works">
             <div class="contenedor">
                 <h3 class="title">Mi Trabajo</h3>
                 <div class="contenedor-works">
                     <div class="work">
                         <div class="thumb">
-                            <img src="img/1.jpg" alt="foto trabajo 1">
+                            <img src="img/fenpof-2.jpg" alt="foto trabajo 1">
                         </div>
                         <div class="description">
-                            <p class="name">Lorem ipsum</p>
-                            <p class="category">HTML ANGULAR CSS</p>
+                            <p class="name">FENPOF</p>
+                            <p class="category">Sitio web creado para la Federación de Enfermedades poco frecuentes Chile, con el objetivo de entregar información y trabajo colaborativo entre las organizacion que la componen. Creada en Angular y Firebase.</p>
+                        </div>
+                        <div class="buttons" >
+                            <a class="demo" target="_blank" href="https://fenfop-chile-c0ea2.firebaseapp.com/">demo</a>
+                            <a class="github" target="_blank" href="https://github.com/Relun/SCL009-Fenpof-Chile">Github</a>
                         </div>
                     </div>
                     <div class="work">
                         <div class="thumb">
-                            <img src="img/2.jpg" alt="foto trabajo 1">
+                            <img src="img/pinterest1.png" alt="foto trabajo 1">
                         </div>
                         <div class="description">
-                            <p class="name">Lorem ipsum</p>
-                            <p class="category">HTML ANGULAR CSS</p>
+                            <p class="name">Copia de Pinterest</p>
+                            <p class="category">Copia de la famosa red social Pinterest. Desarrollada en Angular y Bootstrap.</p>
+                        </div>
+                        <div class="buttons" >
+                            <a class="demo" target="_blank" href="https://fenfop-chile-c0ea2.firebaseapp.com/">demo</a>
+                            <a class="github" target="_blank" href="https://github.com/Relun/SCL009-Fenpof-Chile">Github</a>
                         </div>
                     </div>
                     <div class="work">
@@ -67,17 +75,25 @@
                             <img src="img/3.jpg" alt="foto trabajo 1">
                         </div>
                         <div class="description">
-                            <p class="name">Lorem ipsum</p>
-                            <p class="category">HTML ANGULAR CSS</p>
+                            <p class="name">ORDER FOOD</p>
+                            <p class="category">Interfaz que permite a los trabajadores de una cadena de comida tomar los pedidos de los clientes y llevar su registro. Para su implementación, se usó la Angular y Firebase.</p>
+                        </div>
+                        <div class="buttons" >
+                            <a class="demo" target="_blank" href="https://fenfop-chile-c0ea2.firebaseapp.com/">demo</a>
+                            <a class="github" target="_blank" href="https://github.com/Relun/SCL009-Fenpof-Chile">Github</a>
                         </div>
                     </div>
                     <div class="work">
                         <div class="thumb">
-                            <img src="img/4.jpg" alt="foto trabajo 1">
+                            <img src="" alt="foto trabajo 1">
                         </div>
                         <div class="description">
-                            <p class="name">Lorem ipsum</p>
-                            <p class="category">HTML ANGULAR CSS</p>
+                            <p class="name"></p>
+                            <p class="category"></p>
+                        </div>
+                        <div class="buttons" >
+                            <a class="demo" target="_blank" href="https://fenfop-chile-c0ea2.firebaseapp.com/">demo</a>
+                            <a class="github" target="_blank" href="https://github.com/Relun/SCL009-Fenpof-Chile">Github</a>
                         </div>
                     </div>
                 </div>
@@ -85,7 +101,7 @@
         </section>
     </section>
     <footer>
-        <section class="contact">
+        <section class="contact" id="contact">
             <div class="contenedor">
                 <h3 class="title">Contacto</h3>
                 <form class="formulario" action="">
@@ -102,7 +118,7 @@
           <div class="contenedor">
               <a href="" class="github"><i class="fa fa-github"></i></a>
               <a href="https://www.linkedin.com/in/claudia-araya/" target="_blank" class="linkedin"><i class="fa fa-linkedin-square"></i></a>
-              <p>CV:</p>
+              <!-- <p>CV:</p> -->
               <a href="./img/CV-Claudia-Araya-frontend.pdf" target="_blank" class="download"><i class="fa fa-download" aria-hidden="true"></i></a>
           </div>
           <!-- <div class="download-cv-box">
