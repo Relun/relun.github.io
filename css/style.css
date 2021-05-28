@@ -63,6 +63,9 @@ header .contenedor-texto .texto {
 header .contenedor-texto .texto h1,
 header .contenedor-texto .texto h2 {
     color: #fff;
+    /* color: #191716; */
+    /* color: #8c8b8a; */
+    /* color: #8db255 ; */
     font-weight: 300;
     margin: 0;
 }
@@ -181,7 +184,7 @@ header .contenedor-texto .texto .profession{
     color: #fff;
     border: none;
     border-radius: 3px;
-    padding: 8px 20px;
+    padding: 7px 17px;
     cursor: pointer;
     text-decoration: none;
 }
@@ -192,7 +195,7 @@ header .contenedor-texto .texto .profession{
     color: #fff;
     border: none;
     border-radius: 3px;
-    padding: 8px 20px;
+    padding: 7px 17px;
     /* cursor: pointer; */
     text-decoration: none;
 }
@@ -305,6 +308,14 @@ footer .redes-sociales .download:hover{
     .main .works .contenedor-works .work{
         width: 46%;
     }
+
+    .main .works .contenedor-works .work .buttons .demo{
+        padding: 6px 15px;
+    }
+    
+    .main .works .contenedor-works .work .buttons .github{
+        padding: 6px 15px;
+    }
     
 }
 
@@ -314,6 +325,13 @@ footer .redes-sociales .download:hover{
     }  
     header .contenedor-texto .texto .profession{
         font-size: 18px;  
+    }
+    .main .works .contenedor-works .work .buttons .demo{
+        padding: 4px 3px;
+    }
+    
+    .main .works .contenedor-works .work .buttons .github{
+        padding: 4px 13px;
     }
     /* footer .redes-sociales .contenedor{
         flex-wrap: wrap;
