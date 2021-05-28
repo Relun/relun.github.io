@@ -53,10 +53,11 @@ header .contenedor-texto {
 
 header .contenedor-texto .texto {
     border: 2px solid rgba(255, 255, 255, 0.5);
-    border-radius: 3px;
+    border-radius: 10px;
     display: inline-block;
     text-align: center;
     padding: 20px 60px;
+    
        
 }
 
@@ -66,7 +67,7 @@ header .contenedor-texto .texto h2 {
     /* color: #191716; */
     /* color: #8c8b8a; */
     /* color: #8db255 ; */
-    font-weight: 300;
+    font-weight: 400;
     margin: 0;
 }
 
@@ -208,7 +209,8 @@ header .contenedor-texto .texto .profession{
 /* footer */
 
 footer .contact{
-padding: 60px 0;
+    background: #1e2b38;
+    padding: 60px 0;
 }
 footer .contact .title{
     font-size: 34px;
@@ -218,7 +220,7 @@ footer .contact .title{
     color:#ff4e20;
     text-align: center;
 }
-footer .contact .formulario{
+/* footer .contact .formulario{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -264,7 +266,7 @@ footer .contact .formulario .boton{
 }
 footer .contact .formulario .boton:hover{
     background: #8db255;
-}
+} */
 
 footer .redes-sociales{
     background: #1e2b38;
@@ -281,11 +283,11 @@ footer .redes-sociales a{
     text-align: center;
     width: 100px;
     display: block;
-    padding: 15px 0;
+    padding: 0 0 15px 0;
     border-radius: 3px;
-    font-size: 30px;
+    font-size: 60px;
     /* background: #ccc; */
-    margin: 0 20px;
+    margin: 0 20px 20px 20px;
 }
 footer .redes-sociales .github:hover{
     background: #333;
@@ -327,7 +329,7 @@ footer .redes-sociales .download:hover{
         font-size: 18px;  
     }
     .main .works .contenedor-works .work .buttons .demo{
-        padding: 4px 3px;
+        padding: 4px 13px;
     }
     
     .main .works .contenedor-works .work .buttons .github{
