@@ -328,6 +328,14 @@ footer .redes-sociales .download:hover{
     header .contenedor-texto .texto .profession{
         font-size: 18px;  
     }
+
+    .main .works .contenedor-works .work{
+        width: 75%;
+        /* align-items: center; */
+        margin-left: auto;
+        margin-right: auto;
+        /* margin-bottom: 40px; */
+    }
     .main .works .contenedor-works .work .buttons .demo{
         padding: 4px 13px;
     }
