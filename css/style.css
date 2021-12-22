@@ -19,9 +19,11 @@ body{
 }
 
 header {
-    background: url('../img/pexels-life-of-pix-42408\ \(1\).jpg') #8c8b8a;
+    /* background: url('../img/pexels-life-of-pix-42408\ \(1\).jpg') #8c8b8a; */
+    background:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url('../img/pexels-life-of-pix-42408\ \(1\).jpg');
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
     max-height: 600px;
 }
 
