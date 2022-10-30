@@ -64,7 +64,8 @@ header .contenedor-texto .texto {
 }
 
 header .contenedor-texto .texto h1,
-header .contenedor-texto .texto h2 {
+header .contenedor-texto .texto h2,
+header .contenedor-texto .texto h3{
     color: #fff;
     /* color: #191716; */
     /* color: #8c8b8a; */
